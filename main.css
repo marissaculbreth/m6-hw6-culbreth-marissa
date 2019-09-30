@@ -34,32 +34,43 @@ h2 {
 }
 
 .box-1 {
-  width: 25%;
   background-color: #acecd5;
-  padding: 3%;
-  margin: 3%;
+  padding: 5%;
+  margin: 5%;
   border: 5px solid #7700cf;
 }
 
 .box-2 {
-  width: 25%;
   background-color: #fff9aa;
-  padding: 3%;
-  margin: 3%;
+  padding: 5%;
+  margin: 5%;
   border: 5px solid #7700cf;
 }
 
 .box-3 {
-  width: 25%;
   background-color: #ffd5b8;
-  padding: 3%;
-  margin: 3%;
+  padding: 5%;
+  margin: 5%;
   border: 5px solid #7700cf;
+}
+
+.box-grid {
+  margin: auto;
 }
 
 
 
+
 /*** Media Queries ***/
+
+@media (min-width: 600px) {
+  .box-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+  }
+}
 
 @media (min-width: 768px) {
   h1 {
@@ -69,6 +80,10 @@ h2 {
   p {
     padding: 3%;
     font-size: 1.2rem;
+  }
+
+  .box-grid {
+    width: 100%;
   }
 }
 
@@ -80,10 +95,23 @@ h2 {
   p {
     font-size: 1.4rem;
   }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
 }
 
 @media (min-width: 1250px) {
   h1 {
+    font-size: 3rem;
+  }
+
+  .box-grid {
+    width: 110%;
+  }
+
+  h2 {
     font-size: 3rem;
   }
 }
