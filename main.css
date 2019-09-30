@@ -26,6 +26,37 @@ p {
   font-size: 1.05rem;
 }
 
+h2 {
+  color: #7700cf;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.box-1 {
+  width: 25%;
+  background-color: #acecd5;
+  padding: 3%;
+  margin: 3%;
+  border: 5px solid #7700cf;
+}
+
+.box-2 {
+  width: 25%;
+  background-color: #fff9aa;
+  padding: 3%;
+  margin: 3%;
+  border: 5px solid #7700cf;
+}
+
+.box-3 {
+  width: 25%;
+  background-color: #ffd5b8;
+  padding: 3%;
+  margin: 3%;
+  border: 5px solid #7700cf;
+}
+
 
 
 /*** Media Queries ***/
