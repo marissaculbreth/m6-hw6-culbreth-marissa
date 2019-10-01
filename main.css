@@ -122,3 +122,14 @@ div {
     font-size: 3rem;
   }
 }
+
+@media (min-width: 1350px) {
+  h1 {
+    font-size: 3.7rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+    }
+  }
+}
