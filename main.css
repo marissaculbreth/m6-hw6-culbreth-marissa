@@ -77,6 +77,10 @@ div {
     width: 75%;
     justify-content: center;
   }
+
+  div {
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -91,6 +95,10 @@ div {
 
   #box-grid {
     width: 100%;
+  }
+
+  div {
+    font-size: 1.1rem;
   }
 }
 
@@ -120,6 +128,10 @@ div {
 
   h2 {
     font-size: 3rem;
+  }
+
+  div {
+    font-size: 1.3rem;
   }
 }
 
